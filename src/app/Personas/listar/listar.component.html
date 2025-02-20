@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!-- Directiva que verifica si el array tiene elementos -->
 @if (personas.length > 0) {
 <table>
@@ -30,37 +29,4 @@
 } @else {
 <p>No hay registros</p>
 
-=======
-<!-- Directiva que verifica si el array tiene elementos -->
-@if (personas.length > 0) {
-<table>
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Nombres</th>
-            <th>Apellidos</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!-- Iteramos el array de persona y mostramos los registros -->
-        @for (persona of personas; track $index) {
-        <tr>
-            <td>{{persona.id}}</td>
-            <td>{{persona.nombres}}</td>
-            <td>{{persona.apellidos}}</td>
-            <td>
-                <button class="btn btn-yellow" (click)="editar(persona.id)">Editar</button>
-                <button class="btn btn-red" (click)="eliminar(persona.id)">Eliminar</button>
-            </td>
-        </tr>
-        }
-    </tbody>
-</table>
-
-<!-- Si no hay elementos mostramos un mensaje -->
-} @else {
-<p>No hay registros</p>
-
->>>>>>> f1a955c72d5dc774445b0d6d04e05f46143e61d0
 }
