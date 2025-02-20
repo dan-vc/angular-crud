@@ -1,0 +1,13 @@
+.container {
+  gap: 10px;
+  text-align: center;
+}
+
+.title{
+  margin-bottom: 16px;
+}
+
+.btn-container{
+  display: flex;
+  gap: 10px;
+}
