@@ -11,7 +11,7 @@ export class CrudService {
   constructor(private http: HttpClient) { }
 
   // Definimos una url base
-  url = 'http://localhost/Angular/angular-crud-main/backend';
+  url = 'http://localhost/angular/angular-crud-main/backend';
 
   // Metodo getPersona
   getPersonas() {
