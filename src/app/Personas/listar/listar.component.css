@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table {
     border-collapse: collapse;
     width: fit-content;
@@ -16,4 +17,24 @@ td:not(:last-child){
 th,
 td {
     padding: 10px 15px;
+=======
+table {
+    border-collapse: collapse;
+    width: fit-content;
+    margin: 2rem auto;
+}
+
+th {
+    border-bottom: 1px solid #a3a3a3;
+}
+
+th:not(:last-child),
+td:not(:last-child){
+    border-right: 1px solid #a3a3a3;
+}
+
+th,
+td {
+    padding: 10px 15px;
+>>>>>>> f1a955c72d5dc774445b0d6d04e05f46143e61d0
 }

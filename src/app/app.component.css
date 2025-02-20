@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   gap: 10px;
   text-align: center;
@@ -10,4 +11,18 @@
 .btn-container{
   display: flex;
   gap: 10px;
+=======
+.container {
+  gap: 10px;
+  text-align: center;
+}
+
+.title{
+  margin-bottom: 16px;
+}
+
+.btn-container{
+  display: flex;
+  gap: 10px;
+>>>>>>> f1a955c72d5dc774445b0d6d04e05f46143e61d0
 }
